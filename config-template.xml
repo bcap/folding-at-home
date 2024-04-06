@@ -1,0 +1,23 @@
+<config>
+  <!-- Client Control -->
+  <fold-anon v='false'/>
+
+  <!-- Remote Command Server -->
+  <command-enable v='true'/>
+  <password v='{FAH_COMMAND_PASSWORD}'/>
+
+  <!-- HTTP Server -->
+  <allow v='0/0'/>
+  <web-allow v='0/0'/>
+
+  <!-- User Information -->
+  <passkey v='{FAH_PASSKEY}'/>
+  <team v='{FAH_TEAM}'/>
+  <user v='{FAH_USER}'/>
+
+  <!-- Slot Control -->
+  <power v='FULL'/>
+  <gpu v='true'/>
+  <slot id='0' type='CPU'/>
+  <slot id='1' type='GPU'/>
+</config>
