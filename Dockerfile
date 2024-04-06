@@ -1,7 +1,7 @@
 # base image
 
-# FROM nvidia/cuda:12.3.2-cudnn9-runtime-ubuntu22.04 as base
-FROM ubuntu:jammy as base
+# FROM ubuntu:jammy as base
+FROM nvidia/cuda:12.4.0-runtime-ubuntu22.04 as base
 
 RUN apt-get update
 
