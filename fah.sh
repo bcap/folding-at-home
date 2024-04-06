@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ex
+set -e
 
 APP_DIR=${APP_DIR:-/app}
 FAH_DIR=${FAH_DIR:-/fah}
